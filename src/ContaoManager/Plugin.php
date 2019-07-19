@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the ContaoSwiper Bundle.
+ * This file is part of the ContaoOriginalFileName Bundle.
  *
  * (c) Nicolas Görlach <https://github.com/ngdot>
  *
