@@ -1,0 +1,34 @@
+{
+    "name": "ngdot/contao-originalfilename",
+    "description": "Contao 4+ bundle to extend files for original name",
+    "keywords": ["contao", "files"],
+    "type": "contao-bundle",
+    "homepage": "https://nicolas-goerlach.de",
+    "license": "LGPL-3.0-or-later",
+    "authors": [{
+        "name": "Nicolas Görlach",
+        "homepage": "https://nicolas-goerlach.de",
+        "email": "info@nicolas-goerlach.de",
+        "role": "Developer"
+    }],
+    "support": {
+        "email": "info@nicolas-goerlach.de",
+        "issues": "https://github.com/ngdot/contao-originalfilename/issues",
+        "source": "https://github.com/ngdot/contao-originalfilename",
+        "forum": "https://community.contao.org/de"
+    },
+    "require": {
+        "contao/core-bundle": "~4.4"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContaoOriginalFileNameBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "ContaoOriginalFileNameBundle\\ContaoManager\\Plugin"
+    }
+}
